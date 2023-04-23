@@ -8,5 +8,6 @@ class ContatoController extends Controller
 {
     function contato(){
         return view('site.contato', ['titulo' =>'Contato']);
+        
     }
 }
